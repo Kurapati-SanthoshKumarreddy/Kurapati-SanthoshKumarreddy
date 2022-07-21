@@ -1,0 +1,12 @@
+n=str(input("enter the month in an year:"))
+a=["january","march","may","july","august","october","december"]
+b=["april","june","september","november"]
+c=("february")
+if n=="a":
+	print("31 days")
+elif n=="b":
+	print("30 days")
+elif n =="c":
+	print("28 days")
+else:
+	print("invalid")
