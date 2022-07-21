@@ -1,0 +1,11 @@
+marks=int(input("enter the marks of a student"))
+if marks>90:
+    print("excelllent")
+elif marks>70:
+    print("very good")
+elif marks>60:
+    print("good")
+elif marks>40:
+    print("average")
+else:
+    print("fail")
