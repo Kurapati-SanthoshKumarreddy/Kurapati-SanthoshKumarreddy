@@ -1,0 +1,6 @@
+alphabet=str(input("enter any alphabet"))
+x=["a","e","i","o","u"]
+if alphabet in x:
+    print("it is vowel")
+else:
+    print("it is consonent")
