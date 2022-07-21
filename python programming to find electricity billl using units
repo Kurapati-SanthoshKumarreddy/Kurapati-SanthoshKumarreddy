@@ -1,0 +1,10 @@
+units=int(input("enter the number of units"))
+if units <=100:
+    print("the bill is zero")
+elif units>100 and units<=200:
+    bill=5*(units-100)
+    print("the total bill payable",bill)
+else:
+    bill=10*(units-200)+5*100
+    print("thetotal bill payable",bill)
+
