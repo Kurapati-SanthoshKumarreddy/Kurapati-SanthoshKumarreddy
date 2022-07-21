@@ -1,0 +1,12 @@
+service=int(input("enter the service in years"))
+salary=int(input("enter the salary in years"))
+if service>10:
+    bonus=salary*0.1
+    print("the net bonus",bonus)
+elif service>=6 and service <=10:
+    bonus=salary*0.08
+    print("the net bonus",bonus)
+else:
+    bonus=salary*0.05
+    print("the net bonus",bonus)
+    
