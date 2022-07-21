@@ -1,0 +1,21 @@
+x=str(input("enter roman numbers from I to IX"))
+if x=="I":
+    print("1")
+elif x=="II":
+    print("2")
+elif x=="III":
+    print("3")
+elif x=="IV":
+    print("4")
+elif x=="V":
+    print("5")
+elif x=="VI":
+    print("6")
+elif x=="VII":
+    print("7")
+elif x=="VIII":
+    print("8")
+elif x=="IX":
+    print("9")
+else:
+    print("invalid")
