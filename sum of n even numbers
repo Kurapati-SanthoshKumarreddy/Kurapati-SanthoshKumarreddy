@@ -1,0 +1,5 @@
+'''the sum of even numbers
+sum=n*(n+1)'''
+n=int(input("enter any number"))
+even_number=n*(n+1)
+print("enter even number",even_number)
