@@ -1,0 +1,6 @@
+s=input("enter the string")
+print("before reversing the string")
+print(s)
+print("after reversing the string")
+print(s[::-1])
+
