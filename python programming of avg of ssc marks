@@ -1,0 +1,8 @@
+list=(80,70,80,60,55,45)
+sum=0
+x=len(list)
+print(x)
+for i in list:
+    sum=sum+i
+avg=sum/x
+print(avg)
