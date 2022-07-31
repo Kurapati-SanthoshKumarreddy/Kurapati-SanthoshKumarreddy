@@ -1,0 +1,9 @@
+ms=str(input("enter the marital status"))
+s=str(input("enter the sex"))
+age=int(input("enter the age"))
+if ms=="un married" or s=="male" and age>30:
+    print("insured")
+elif ms=="un married" or s=="female" and age>25:
+    print("insured")
+else:
+    print("not insured")
