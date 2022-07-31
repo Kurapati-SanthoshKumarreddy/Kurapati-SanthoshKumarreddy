@@ -1,0 +1,7 @@
+r=int(input("enter the radius"))
+l=int(input("enter the length"))
+b=int(input("enter the breadth"))           
+perimeter=2*(l+b)
+circumference=2*3.14*r
+print(perimeter)
+print(circumference)
